@@ -1,5 +1,7 @@
-This writeup contains an agent-based modelling project that explored three different airport taxiway co-ordination solutions: prioritised, conflict-based search and a distributed approach. 
-![Airport](Airport.gif)
+# Agent-Based Modelling of Taxiing Operations
+This writeup contains an agent-based modelling project that explored three different airport taxiway co-ordination solutions: prioritised, conflict-based search and a distributed approach.
+![Airport Simulation](Airport.gif)
+
 ## Problem Statement
 You're given a small airport with one departure runway, one arrival runway and five terminals. The challenge is to construct and compare aircraft taxiing co-ordination solutions subject to the following constraints:
 1. There are no collisions between aircraft
@@ -8,18 +10,18 @@ You're given a small airport with one departure runway, one arrival runway and f
 4. There is a maximum number of aircraft on the taxiways, determined by the demand scenario
 
 The problem is best understood by taking a look at the grid-based airport illustrated below. 
-![[Airport.png | 600]]
+![Airport Diagram](Airport.png)
 - **Arriving aircraft** start from the arrival runway, entering the grid at nodes {37,38} and look to exit at one of the airport terminal nodes {34, 35, 36, 97, 98}.
 - **Departing aircraft** start at terminals, entering the grid at nodes {34, 35, 36, 97, 98} and look to exit at the departure runway nodes {1,2}.
 #### Simulation details
 A few clarifying remarks are given here about the simulation behaviour.
-###### Aircraft Spawning
+##### Aircraft Spawning
 Aircraft are spawned as either arrival or departing aircraft with a fixed cooldown between spawns. If the number of aircraft on the runway is below the maximum, there's a 45% chance that it will spawn as arriving, a 45% chance it will spawn as departing and a 10% chance that an arriving and departing aircraft spawn simultaneously.
-###### Aircraft Exiting
+##### Aircraft Exiting
 Once an aircraft reaches its goal state (terminal for arriving, departure runway for departing), the aircraft instantaneously leaves the grid. Of course, in reality this is not accurate as for example there's a gap between when an aircraft uses a runway to depart and when it's clear for departure again.
-###### Aircraft Rejection
+##### Aircraft Rejection
 If an aircraft spawns but finds no possible path plan to reach its goal state from any candidate starting node, it's simply rejected from entering the grid. In reality this would correspond to delaying an arrival/departure until it is logistically suitable. 
-###### Demand Scenarios
+##### Demand Scenarios
 The two demand scenarios considered were nominal demand and high demand. 
 For normal demand, the maximum number of aircraft on the taxiways was ≤ 5 and the simulation ran until a quota of 50 (or 51 if simultaneous spawning occurred) aircraft was met.
 
