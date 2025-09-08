@@ -32,12 +32,13 @@ For the distributed strategy, the agents co-ordinated continuously by changing t
 
 In real life this could be implemented by means of a radar that signals aircraft close to each other how they should proceed on the taxiways in a co-ordinated collision free way.
 
-## Performance Indicators & Results
+## Performance Metrics & Results
 The following metrics were tracked under two demand scenarios normal demand (ND) and high demand (ND) in order to compare strategies:
 - TTT - Total taxi time, to track how long it took the strategy to meet the quota
 - ARA - Average route time per aircraft, to track how direct routes were
 - MRT - Maximum route time per run, to track if some strategies consistently made some aircraft take longer routes
 - MAT - Maximum algorithm calculation time, to track the worst-case scenario computing power per strategy
+
 The simulation was run 100 times per strategy (all coefficients of variance converged within 100 trials) to get a representative picture of how each strategy performed. A comparison between strategies is shown below. Note that ‘better’ or ‘worse’ depends on the metric: lower TTT or ARA is better, while lower MAT is better
 
 | Demand | Comparison                 | TTT               | ARA               | MRT                | MAT                |
