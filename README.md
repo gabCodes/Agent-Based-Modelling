@@ -39,7 +39,7 @@ The following metrics were tracked under two demand scenarios normal demand (ND)
 - MRT - Maximum route time per run, to track if some strategies consistently made some aircraft take longer routes
 - MAT - Maximum algorithm calculation time, to track the worst-case scenario computing power per strategy
 
-The simulation was run 100 times per strategy (all coefficients of variance converged within 100 trials) to get a representative picture of how each strategy performed. A comparison between strategies is shown below. Note that ‘better’ or ‘worse’ depends on the metric: lower TTT or ARA is better, while lower MAT is better
+The simulation was run 100 times per strategy (all coefficients of variance converged within 100 trials) to get a representative picture of how each strategy performed. A comparison between strategies is shown below. Note that ‘better’ or ‘worse’ depends on the metric: lower TTT or ARA is better, while lower MAT is better.
 
 | Demand | Comparison                 | TTT               | ARA               | MRT                | MAT                |
 | ------ | -------------------------- | ----------------- | ----------------- | ------------------ | ------------------ |
