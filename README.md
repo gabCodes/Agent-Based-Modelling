@@ -57,7 +57,7 @@ Metrics that were normally distributed were compared using pair/unpaired t-tests
 2. Prioritised and CBS performed mostly the same, with prioritised having the upper hand in ARA and MAT.
 3. Distributed was less efficient in routing (higher TTT/ARA) but had lower computational cost since it avoids explicit conflict resolution
 
-## Simulation details
+## Simulation Details
 A few clarifying remarks are given here about the simulation behaviour.
 ###### Aircraft Spawning
 Aircraft are spawned as either arrival or departing aircraft with a fixed cooldown between spawns. If the number of aircraft on the runway is below the maximum, there's a 45% chance that it will spawn as arriving, a 45% chance it will spawn as departing and a 10% chance that an arriving and departing aircraft spawn simultaneously.
