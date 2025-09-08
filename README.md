@@ -1,5 +1,5 @@
 # Agent-Based Simulation of Airport Taxiing Operations
-This project simulates airport taxiway operations using agent-based modelling. It compares three strategies to prevent collisions and optimize aircraft movement under different demand scenarios: prioritised, conflict-based search and distributed co-ordination.
+This project simulates airport taxiway operations using agent-based modelling. It compares three strategies to prevent collisions and optimise aircraft movement under different demand scenarios: prioritised, conflict-based search and distributed co-ordination.
 ![Airport Simulation](Airport.gif)
 
 ## Problem Statement
