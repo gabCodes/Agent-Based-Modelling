@@ -48,6 +48,7 @@ The simulation was run 100 times per strategy (all coefficients of variance conv
 | HD     | Prioritised vs CBS         | No difference     | CBS worse         | No difference      | Prioritised better |
 | HD     | Prioritised vs Distributed | Distributed worse | Distributed worse | Prioritised better | Distributed better |
 | HD     | CBS vs Distributed         | Distributed worse | Distributed worse | CBS better         | Distributed better |
+
 Metrics that were normally distributed were compared using pair/unpaired t-tests, while non-normal metrics were analysed using Wilcoxon Signed-Rank Tests (paired) or Vargha-Delaney A-Tests (unpaired).
 
 ### Key Takeaways
