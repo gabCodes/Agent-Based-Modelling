@@ -1,31 +1,112 @@
-Bottleneck @ file:///C:/b/abs_816hr2khp1/croot/bottleneck_1731058648110/work
-Brotli @ file:///C:/b/abs_c415aux9ra/croot/brotli-split_1736182803933/work
-contourpy @ file:///C:/b/abs_f2u2o_8s9g/croot/contourpy_1732540071787/work
-cycler @ file:///tmp/build/80754af9/cycler_1637851556182/work
-et_xmlfile @ file:///C:/b/abs_b0ifp_j3js/croot/et_xmlfile_1756462499666/work
-fonttools @ file:///C:/b/abs_4crkswws2h/croot/fonttools_1737040078745/work
-kiwisolver @ file:///C:/b/abs_faf90xet7a/croot/kiwisolver_1737040915779/work
-matplotlib==3.10.5
-mkl-service==2.4.0
-mkl_fft @ file:///C:/Users/dev-admin/mkl/mkl_fft_1730823082242/work
-mkl_random @ file:///C:/Users/dev-admin/mkl/mkl_random_1730822522280/work
-networkx @ file:///C:/b/abs_b054htfn9t/croot/networkx_1737043671910/work
-numexpr @ file:///C:/b/abs_4e0h6i5ip2/croot/numexpr_1752521729801/work
-numpy @ file:///C:/b/abs_0123vcxhf8/croot/numpy_and_numpy_base_1725470331966/work/dist/numpy-2.0.1-cp310-cp310-win_amd64.whl#sha256=e824ec3b279f4c5207736c83ac2f2dc79b489e08501a4ea9e3fc178c45db289b
-openpyxl @ file:///C:/b/abs_6cdczthntz/croot/openpyxl_1736371239628/work
-packaging @ file:///C:/b/abs_f7t3vr2_lo/croot/packaging_1753775377650/work
-pandas @ file:///C:/b/abs_58a1hlvjeo/croot/pandas_1756466410850/work/dist/pandas-2.3.2-cp310-cp310-win_amd64.whl#sha256=c5e64b82058916af3f8dd153264d32f927a5790ee19113e282b31ea45d923c7e
-pillow @ file:///C:/b/abs_b50vowcrzo/croot/pillow_1738010273782/work
-pygame @ file:///D:/bld/pygame_1677570946287/work
-pyparsing @ file:///C:/b/abs_40z8gyj9wi/croot/pyparsing_1731445739241/work
-PyQt6==6.7.1
-PyQt6_sip @ file:///C:/b/abs_25j3xlesmj/croot/pyqt-split_1753427295085/work/pyqt_sip
-python-dateutil @ file:///C:/b/abs_3au_koqnbs/croot/python-dateutil_1716495777160/work
-pytz @ file:///C:/b/abs_f8wdzeix0n/croot/pytz_1752135878094/work
-scipy @ file:///C:/b/abs_71q96u23a4/croot/scipy_1747238057723/work/dist/scipy-1.15.3-cp310-cp310-win_amd64.whl#sha256=06013d45c5cad262bccdca1fbe5c25a720be04ae66dc83d75d1f749d118a7346
-sip @ file:///C:/b/abs_5cto136kse/croot/sip_1738856220313/work
-six @ file:///C:/b/abs_149wuyuo1o/croot/six_1744271521515/work
-tomli @ file:///C:/b/abs_88e598m6o8/croot/tomli_1753774604115/work
-tornado @ file:///C:/b/abs_7dzpc171lf/croot/tornado_1748956950306/work
-tzdata @ file:///croot/python-tzdata_1746123641790/work
-unicodedata2 @ file:///C:/b/abs_dfnftvxi4k/croot/unicodedata2_1736543771112/work
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: win-64
+# created-by: conda 25.3.1
+aom=3.6.0=hd77b12b_0
+blas=1.0=mkl
+bottleneck=1.4.2=py310hc99e966_0
+brotli-python=1.0.9=py310h5da7b33_9
+bzip2=1.0.8=h2bbff1b_6
+ca-certificates=2025.7.15=haa95532_0
+cairo=1.18.4=he9e932c_0
+contourpy=1.3.1=py310h214f63a_0
+cycler=0.11.0=pyhd3eb1b0_0
+dav1d=1.2.1=h2bbff1b_0
+et_xmlfile=2.0.0=py310haa95532_0
+expat=2.7.1=h8ddb27b_0
+font-ttf-dejavu-sans-mono=2.37=hd3eb1b0_0
+font-ttf-inconsolata=2.001=hcb22688_0
+font-ttf-source-code-pro=2.030=hd3eb1b0_0
+font-ttf-ubuntu=0.83=h8b1ccd4_0
+fontconfig=2.14.2=hbde0cde_0
+fonts-anaconda=1=h8fa9717_0
+fonts-conda-ecosystem=1=hd3eb1b0_0
+fonttools=4.55.3=py310h827c3e9_0
+freetype=2.13.3=h0620614_0
+graphite2=1.3.14=hd77b12b_1
+harfbuzz=10.2.0=he2f9f60_1
+icc_rt=2022.1.0=h6049295_2
+icu=73.1=h6c2663c_0
+intel-openmp=2023.1.0=h59b6b97_46320
+jpeg=9e=h827c3e9_3
+kiwisolver=1.4.8=py310h5da7b33_0
+lcms2=2.16=hb4a4139_0
+lerc=3.0=hd77b12b_0
+libavif=0.11.1=h2bbff1b_0
+libdeflate=1.17=h2bbff1b_1
+libffi=3.4.4=hd77b12b_1
+libflac=1.4.3=h63175ca_0
+libglib=2.84.2=h405b238_0
+libiconv=1.18=hc1393d2_2
+libkrb5=1.21.3=h885b0b7_4
+libmad=0.15.1b=hcfcfb64_1001
+libogg=1.3.5=h2bbff1b_1
+libpng=1.6.39=h8cc25b3_0
+libpq=17.4=h4a159e6_2
+libtiff=4.5.1=hd77b12b_0
+libusb=1.0.29=h1839187_0
+libvorbis=1.3.7=he774522_0
+libwebp-base=1.3.2=h3d04722_1
+libzlib=1.2.13=h2466b09_6
+lz4-c=1.9.4=h2bbff1b_1
+matplotlib=3.10.5=py310haa95532_0
+matplotlib-base=3.10.5=py310h43afe63_0
+mkl=2023.1.0=h6b88ed4_46358
+mkl-service=2.4.0=py310h827c3e9_2
+mkl_fft=1.3.11=py310h827c3e9_0
+mkl_random=1.2.8=py310hc64d2fc_0
+mpg123=1.32.9=h01009b0_0
+networkx=3.4.2=py310haa95532_0
+numexpr=2.11.0=py310hdb065b2_0
+numpy=2.0.1=py310h055cbcc_1
+numpy-base=2.0.1=py310h65a83cf_1
+openjpeg=2.5.2=hae555c5_0
+openpyxl=3.1.5=py310h827c3e9_1
+openssl=3.0.17=h35632f6_0
+packaging=25.0=py310haa95532_0
+pandas=2.3.2=py310ha5e6156_0
+pcre2=10.42=h0ff8eda_1
+pillow=11.1.0=py310h096bfcc_0
+pip=25.2=pyhc872135_0
+pixman=0.46.4=h4043f72_0
+portmidi=2.0.6=hac47afa_0
+pygame=2.2.0=py310hf962f48_0
+pyparsing=3.2.0=py310haa95532_0
+pyqt=6.7.1=py310h378bd72_2
+pyqt6-sip=13.9.1=py310h02ab6af_2
+python=3.10.18=h981015d_0
+python-dateutil=2.9.0post0=py310haa95532_2
+python-tzdata=2025.2=pyhd3eb1b0_0
+python_abi=3.10=2_cp310
+pytz=2025.2=py310haa95532_0
+qtbase=6.7.3=hd088775_4
+qtdeclarative=6.7.3=h885b0b7_1
+qtsvg=6.7.3=h9d4b640_1
+qttools=6.7.3=hcb596f7_1
+qtwebchannel=6.7.3=h885b0b7_1
+qtwebsockets=6.7.3=h885b0b7_1
+scipy=1.15.3=py310h180bac5_0
+sdl2=2.32.54=he0c23c2_0
+sdl2_image=2.6.3=h090e09f_0
+sdl2_mixer=2.6.3=he8f0768_1
+sdl2_ttf=2.24.0=hb42d5a6_0
+sdl3=3.2.22=h5112557_0
+setuptools=78.1.1=py310haa95532_0
+sip=6.10.0=py310h5da7b33_0
+six=1.17.0=py310haa95532_0
+sqlite=3.50.2=hda9a48d_1
+tbb=2021.8.0=h59b6b97_0
+tbb-devel=2021.8.0=h59b6b97_0
+tk=8.6.15=hf199647_0
+tomli=2.2.1=py310haa95532_0
+tornado=6.5.1=py310h827c3e9_0
+tzdata=2025b=h04d1e81_0
+ucrt=10.0.22621.0=haa95532_0
+unicodedata2=15.1.0=py310h827c3e9_1
+vc=14.3=h2df5915_10
+vc14_runtime=14.44.35208=h4927774_10
+vs2015_runtime=14.44.35208=ha6b5a95_10
+wheel=0.45.1=py310haa95532_0
+xz=5.6.4=h4754444_1
+zlib=1.2.13=h2466b09_6
+zstd=1.5.6=h8880b57_0
